@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+/* navbar */
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+.navbar{
+	background-color: transparent;
+	color: #fff !important;
+}
+.nav-item a{
+	color: #fff !important;
+}
+.nav-item {
+	padding-left: 10px;
+}
+.navbar-brand{
+	color: #fff !important;
+	padding-left: 10px;
+}
+#navbar button{
+	color: transparent !important;
+}
+
+/* banner */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.c-item {
+    height: 480px;
+  }
+  
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+  }
+
+/*caraousel caption */
+
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, 50%);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+/*responsive */
+@media (min-width: 992px) {
+    .carousel-caption {
+        right: 15%;
+        left: 15%;
+        padding-bottom: 30px;
+        font-size: 4rem;
+    }
+}
+
+.carousel-item {
+    max-height: 80vh;
+}
+
+
+
+/* footer */
+.mb-3{
+	padding-top: 10px;
+}
+
+@media only screen and (max-width:960px)
+{
+	.navbar-brand{
+		padding-left:0;
+	}
+}
+@media only screen and (max-width:760px)
+{
+	#banner-row img{
+		padding-top:20px;
+	}
+	.social-col{
+		width: 33%;
+	}
+}
+
+
+
+
+
+
+
